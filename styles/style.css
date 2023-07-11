@@ -15,30 +15,64 @@ html {
   
   p {
     font-size: 14px;
-    text-align: center;
   }
 
   .splash {
     font-family: 'Imprima', sans-serif;
   }
 
-  .center {
-    display: block;
+  .sun-box-eclipse {
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 12.5%;
+    width: 348px;
+    height: 348px;
+    border-radius: 50%;
+    border: 6px solid #7F88E2;
   }
 
-  .three-content-boxes {
-    background-color: rgb(68, 55, 128);
-    margin-top: 10px;
+  .sun-box {
+    margin: auto;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 28px solid #FFB74A;
+  }
+
+  .content-boxes-container {
+    margin-top: 100px;
     display: flex
+  }
+
+  .content-box-eclipse {
+    box-sizing: border-box;
+    display: flex;
+    width: 267px;
+    height: 252px;
+    margin: auto;
+    border: 6px solid #7F88E2;
+    border-radius: 7px;
   }
   
   .content-box {
-    width: 600px;
-    margin: 0 auto;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
+    box-sizing: border-box;
+    display: block grid;
+    width: 243px;
+    height: 230px;
+    margin: auto;
+    padding: 0 27px;
     background-color: #FFB74A;
+    border-radius: 7px;
   }
+
+  .content-box-header {
+    margin: 10px auto 0;
+    width: 180px;
+    height: 42px;
+  }
+
+  .content-box-content {
+    margin-top: 30px;
+  }
+
+  
