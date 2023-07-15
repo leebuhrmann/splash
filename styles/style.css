@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+  padding: 0 50px;
+}
+
 html {
     background-color: #FFF6F4;
     font-family: 'IBM Plex Sans', sans-serif;  
@@ -17,41 +25,81 @@ html {
     font-size: 14px;
   }
 
-  .splash {
-    font-family: 'Imprima', sans-serif;
+  .header {
+    box-sizing: border-box;
+    background-color: #FFB74A;
+    padding: 10px;
+    width: 620px;
+    height: 51px;
+    margin: -10px auto 0 auto;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .sun-and-wings-container {
+    display: flex;
   }
 
   .sun-box-eclipse {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 348px;
-    height: 348px;
+    margin: 30px auto 0 auto;
+    width: 359px;
+    height: 359px;
     border-radius: 50%;
     border: 6px solid #7F88E2;
+    aspect-ratio: 1;
   }
 
   .sun-box {
     margin: auto;
-    width: 280px;
-    height: 280px;
+    width: 335px;
+    height: 335px;
     border-radius: 50%;
     border: 28px solid #FFB74A;
   }
 
+  .wing-container {
+    display: flex;
+    height: 148px;
+    width: 400px;
+  }
+
+  .wing-eclipse {
+    display: flex;
+    margin: -5px auto 0 auto;
+    width: 148px;
+    height: 148px;
+    border-radius: 50%;
+    border: 6px solid #7F88E2;
+    aspect-ratio: 1;
+  }
+
+  .wing-box {
+    margin: auto;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 18px solid #FFB74A;
+  }
+ 
+  .wing-text {
+    font-family: 'Imprima', sans-serif;
+    margin: auto;
+  }
+
   .content-boxes-container {
     margin-top: 100px;
-    display: flex
+    display: flex;
+    gap: 20px;
   }
 
   .content-box-eclipse {
-    box-sizing: border-box;
     display: flex;
     width: 267px;
     height: 252px;
     margin: auto;
     border: 6px solid #7F88E2;
     border-radius: 7px;
+    aspect-ratio: 267 / 252;
   }
   
   .content-box {
