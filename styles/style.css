@@ -61,6 +61,7 @@ html {
     display: flex;
     height: 148px;
     width: 400px;
+    aspect-ratio: 400 / 148;
   }
 
   .wing-eclipse {
