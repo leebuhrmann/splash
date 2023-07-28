@@ -1,4 +1,3 @@
 # splash
-A practice HTML/CSS webpage.
 
-Made this to refamiliarize myself with HTML/CSS fundamentals.
+Made this to familiarize myself with HTML, CSS, and Javascript.
