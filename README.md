@@ -1,4 +1,4 @@
 # splash
-A practice HTML webpage.
+A practice HTML/CSS webpage.
 
 Made this to refamiliarize myself with HTML/CSS fundamentals.
