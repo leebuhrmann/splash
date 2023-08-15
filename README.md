@@ -1,3 +1,3 @@
 # splash
 
-Made this to familiarize myself with HTML, CSS, and Javascript.
+Made this to practice my HTML, CSS, and Javascript.
